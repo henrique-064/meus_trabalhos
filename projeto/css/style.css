@@ -1,0 +1,179 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../img/images.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #d1f2eb;
+}
+
+.cabeçario {
+   padding: 20px;
+    color: #33ff77;
+}
+
+.cabeçario-text {
+  flex-grow: 1;
+}
+
+.cabeçario_c {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.logo-img {
+  width: 80px;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+    color: #33ff77;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.section {
+  padding: 50px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.seção_produtos {
+  padding: 30px;
+  overflow-x: auto;
+}
+
+.produto {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 10px;
+  min-width: 300px;
+  max-width: 300px;
+  box-shadow: 0px 4px 6px rgba(0, 255, 0, 0.2);
+  text-align: center;
+  flex-shrink: 0;
+  color: #ffffff;
+}
+
+.prateleira {  
+  display: flex;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.produto-img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #33ff77;
+}
+
+.produto h1 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #33ff77;
+}
+
+.produto p {
+    font-size: 14px;
+    color: #d1f2eb;
+}
+
+.produto button {
+    background-color: #33ff77;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 50px;
+}
+
+.pedido-container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    color: #33ff77;
+}
+
+.pedido-label {
+    font-weight: bold;
+    color: #33ff77;
+}
+
+.pedido-container input {
+    padding: 8px;
+    border: 1px solid #33ff77;
+    background-color: #111;
+    color: #fff;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.pedido-container button {
+  padding: 8px 16px;
+  background-color: #33ff77;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.pedido-container button:hover {
+    background-color: #1aff66;
+}
+
+.resposta-pedido {
+    margin-top: 10px;
+    color: #d1f2eb;
+    width: 100%;
+}
+
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+h2, h3 {
+    font-family: 'Press Start 2P', cursive;
+    color: #00ff00;
+    text-shadow: 2px 2px #000;
+}
+
+p {
+    font-family: "open sans" cursive;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+
+button {
+    font-family: 'VT323', monospace;
+    background-color: #f0f000;
+    border: 2px dashed #000;
+    padding: 10px 15px;
+    cursor: pointer;
+}
